@@ -7,5 +7,6 @@ app = Flask(__name__)
 def hello():
     return """
            <link href="/static/images/favicon.ico" rel="icon" type="image/x-icon" />
-           Hello! Welcome to Adam Goldberg\'s website!'
+           Hello! Welcome to Adam Goldberg\'s website!
+           Coming soon... :)
            """
