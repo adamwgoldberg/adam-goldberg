@@ -14,7 +14,4 @@ def page_not_found(e):
 
 @app.route('/')
 def hello():
-    return """
-           Hello! Welcome to Adam Goldberg\'s website!
-           Coming soon... :)
-           """
+    return render_template('index.html')
