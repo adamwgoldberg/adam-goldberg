@@ -18,4 +18,5 @@ def hello():
 
 @app.route('/imnot')
 def imnot():
+    print "LOLOLOLOLOLOLOL"
     return render_template('imnot.html')
