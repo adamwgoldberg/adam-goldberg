@@ -15,3 +15,7 @@ def page_not_found(e):
 @app.route('/')
 def hello():
     return render_template('index.html')
+
+@app.route('/imnot')
+def imnot():
+    return render_template('imnot.html')
