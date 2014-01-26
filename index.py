@@ -16,7 +16,10 @@ def page_not_found(e):
 def hello():
     return render_template('index.html')
 
-@app.route('/imnot')
+@app.route('/imnot/')
 def imnot():
-    print "LOLOLOLOLOLOLOL"
     return render_template('imnot.html')
+
+@app.route('/resume/')
+def resume():
+    return render_template("resume.html")
