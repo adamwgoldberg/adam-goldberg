@@ -2,14 +2,18 @@
 {% block title %} - Home{% endblock %}
 {% block content %}
 <div class="hero-unit">
-  <h1>Welcome!</h1>
-  <h3>I will use this site to share:</h3>
-  <ol>
-    <li>Cool technologies I'm using</li>
-    <li>Photos from trips I take</li>
-    <li>Opinions on technology, finance, and entrepreneurship</li>
-    <li>My resume</li>
-  </ol>
-  <p>This site is powered by Flask, Heroku, and Twitter Bootstrap, along with Coffeescript.</p>
+  <div class="hero-unit">
+    <h1>Welcome!</h1>
+    <h3>I will use this site to share:</h3>
+    <ol>
+      <li>Cool technologies I'm using</li>
+      <li>Photos from trips I take</li>
+      <li>Opinions on technology, finance, and entrepreneurship</li>
+      <li>My <a href="/resume">resume</a></li>
+    </ol>
+    <p>This site is powered by Flask, Heroku, and Twitter Bootstrap, along with Coffeescript.</p>
+  </div>
+
+  <img class="img-circle" src="static/img/adam.jpg" width="140" height="140"/>
 </div>
 {% endblock %}
