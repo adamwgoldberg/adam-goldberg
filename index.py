@@ -27,3 +27,7 @@ def resume():
 @app.route('/contact/')
 def contact():
     return render_template("contact.html")
+
+@app.route('/photos/')
+def photos():
+    return render_template("photos.html")
